@@ -1,4 +1,4 @@
-const BASE = '/api'
+const BASE ='https://dental-clinic-full-stack.onrender.com'
 export const getToken = () => localStorage.getItem('token')
 export const setToken = (t) => (t ? localStorage.setItem('token', t) : localStorage.removeItem('token'))
 
